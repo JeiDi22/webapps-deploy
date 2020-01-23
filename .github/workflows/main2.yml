@@ -6,8 +6,6 @@ jobs:
      name: Build Code
      runs-on: windows-latest
      
-     
-     
      steps:
        - uses: actions/checkout@v1
        - name: Setup .Net Core 
