@@ -3,7 +3,7 @@ on: [push]
 jobs:
   build:
      name: Build Code
-     runs-on: windows-latest
+     runs-on: ubuntu-latest
      
      steps:
        - uses: actions/checkout@v1
@@ -16,7 +16,7 @@ jobs:
   deploy:
     needs: build
     name: Deploy App
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: deploy to azure web app
