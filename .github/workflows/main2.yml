@@ -22,5 +22,5 @@ jobs:
       - name: deploy to azure web app
         uses: azure/appservice-actions/webapp@master
         with:
-          app_name: mynewestwebapplication
+          app_name: MyWebApplicationjd
           publish-profile: ${{ secrets.azureWebAppPublishProfile }}
