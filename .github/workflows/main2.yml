@@ -2,7 +2,6 @@ name: Build code and deploy Azure
 on: [push]
 jobs:
   build:
-    
      name: Build Code
      runs-on: windows-latest
      
